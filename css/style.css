@@ -1,0 +1,61 @@
+/*CSS Document*/
+
+:root {
+    --mainbr: 1px solid
+}
+
+html {
+    font-family: sans-serif;
+    background-color: #651a2b;
+}
+
+a {
+    font-size: 1.4em;
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+/*Nav Bar Stuff*/
+.nav {
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    background-color: rgb(88, 31, 63);
+    border-top: var(--mainbr);
+    border-bottom: var(--mainbr);
+}
+
+/*Burger Icon*/
+
+.burger-icon {
+    display: block;
+}
+
+.burger-icon svg {
+    width: 80px;
+    height: 80px;
+    fill: rgb(247, 214, 220);
+}
+
+/*Desktop Nav*/
+
+.desktop-nav {
+    position: fixed;
+    margin: 0 0 0 0;
+    padding: 70px 0 0 0;
+}
+
+.desktop-nav li {
+    display: inline-block;
+    margin: 25px 20px 0 0;
+}
+
+.desktop-nav li a {
+    font-size: 1.8em;
+    transition: .2s all ease;
+}
+
+.desktop-nav li a:hover {
+    color: rgb(79, 43, 67);
+}
+
